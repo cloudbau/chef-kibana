@@ -1,7 +1,7 @@
 Description
 ===========
 
-A cookbook that installs [Kibana](https://github.com/rashidkpc/Kibana).
+A cookbook that installs [Kibana] - adapted for cloudbau.
 
 Platforms
 =========
@@ -35,3 +35,7 @@ Recipes
 
 * `default` - Install Kibana.
 * `apache` - Setup vhost for apache that rewrites to Kibana.
+
+Use 
+=======
+Attach Kibana Role or Recipe to the logstash server(nothing more to do with local use)
